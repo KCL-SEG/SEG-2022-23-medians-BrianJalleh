@@ -26,11 +26,9 @@ if(len(numbers)%2 == 0):
     median = (numbers[leftIndex] + numbers[rightIndex])/2
 
 else:
-    #return numbers[len(numbers)/2]
     median = numbers[(int) (len(numbers)/2)]
     
 print(median)
-#return 1
 
 
 
