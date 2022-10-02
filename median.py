@@ -19,11 +19,9 @@ while True:
 
 
 if(len(numbers)%2 == 0):
-
     leftIndex = (int) ((len(numbers)/2)) - 1
-    rightIndex = (int) (len(numbers)/2)
     
-    median = (numbers[leftIndex] + numbers[rightIndex])/2
+    median = sum(numbers[leftIndex:leftIndex+2])/2
 
 else:
     median = numbers[(int) (len(numbers)/2)]
